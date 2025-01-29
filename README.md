@@ -5,15 +5,15 @@ A simple utility to create and maintain snapshots of your codebase. It watches f
 ## Features
 
 - Creates snapshots of all text-based code files (automatically detected)
-- Intelligently skips binary files
-- Automatically excludes common development directories (`.git`, `.venv`, etc.)
-- Watches for file changes and updates snapshots in real-time
-- Implements cooldown to prevent excessive snapshot creation
+- skips binary files
+- excludes common development directories (`.git`, `.venv`, etc.)
+- watches for file changes and updates snapshots in real-time
+- cooldown to prevent excessive snapshot creation
 
 ## Installation
 
 ```bash
-pipx install git+https://github.com/yourusername/snapcode.git
+pipx install git+https://github.com/sundeep-sf/sf-snapcode.git
 ```
 
 ## Usage
